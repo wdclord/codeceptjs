@@ -1,0 +1,19 @@
+<<< Recorded commands on Sat Feb 08 2020 03:00:08 GMT+0300 (Moscow Standard Time)
+I.click('Singapore');
+I.click('English');
+I.click('Incorporation');
+I.click("I'm a foreigner");
+I.click("I'm the only shareholder");
+I.click("Yes");
+I.see('Compare Packages');
+I.click('Compare Packages');
+I.see('See Osome in action');
+
+<<< Recorded commands on Sat Feb 08 2020 03:07:38 GMT+0300 (Moscow Standard Time)
+I.see('To register a company, you need a Nominee Director.');
+I.see('To work for your own company, you need an Employment Pass (EP) issued by your very company.');
+I.see('What exactly is included?');
+I.see('Essential Accounting');
+I.see('Compare Packages');
+I.click('Compare Packages');
+I.see('See Osome in action');
