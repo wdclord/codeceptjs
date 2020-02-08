@@ -11,7 +11,8 @@ exports.config = {
     Puppeteer: {
       url: 'http://localhost',
       show: true,
-      windowSize: '1280x960',
+      waitForTimeout: 15000,
+      windowSize: '1280x800',
       chrome: {
         args: ['--no-sandbox', '--window-size=1280,960'],
       }

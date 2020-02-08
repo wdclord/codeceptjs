@@ -1,10 +1,5 @@
 Feature('Interview Tests');
 
-// Scenario('test something', (I) => {
-//     I.amOnPage('https://google.com');
-//     I.see('Google');
-// });
-
 Scenario('Singapore', (I) => {
     I.amOnPage('https://stage.my.osome.club/companies/152612');
     I.click('Singapore');
@@ -13,12 +8,13 @@ Scenario('Singapore', (I) => {
     I.click("I'm a foreigner");
     I.click("I'm the only shareholder");
     I.click("Yes");
-    // pause();
-    I.waitForText('To register a company, you need a Nominee Director.', 5);
-    I.waitForText('To work for your own company, you need an Employment Pass (EP) issued by your very company.', 5);
-    I.waitForText('What exactly is included?', 5);
-    I.waitForText('Essential Accounting', 5);
-    I.waitForText('Compare Packages', 5);
+    I.waitForText('To register a company, you need a Nominee Director.');
+    I.waitForText('To work for your own company');
+    I.waitForText('What exactly is included?');
+    I.waitForText('Essential Accounting');
+    I.waitForText('Compare Packages');
     I.click('Compare Packages');
-    I.waitForText('See Osome in action', 5);
+    I.switchToNextTab();
+    I.waitForText('See Osome in action');
+    I.see('See Osome in action');
 });
